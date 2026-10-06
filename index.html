@@ -1,58 +1,54 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mini Art Museum - Home</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Mini Art Museum</h1>
-      <nav>
-        <ul class="pages">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="artists.html">Artists</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="visit.html">Visit &amp; Contact</a></li>
-        </ul>
-      </nav>
-    </header>
 
-    <main>
-      <section>
-        <img src="img/logo.svg" alt="Mini Art Museum logo" width="120" />
-        <h2>Welcome to the Mini Art Museum</h2>
-        <p id="welcome-text">
-          Discover masterpieces by some of the greatest painters in history.
-          Meet the artists, explore the gallery and plan your visit.
-        </p>
-      </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Art Museum - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-      <section>
-        <h2>Explore the Museum</h2>
-        <ul>
-          <li>
-            <a href="artists.html">Artists</a> - meet Vincent van Gogh, Claude
-            Monet and Rembrandt.
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a> - browse famous paintings from
-            our collection.
-          </li>
-          <li>
-            <a href="visit.html">Visit &amp; Contact</a> - hours, location and
-            contact info.
-          </li>
-        </ul>
-      </section>
-    </main>
+<body>
+  <header>
+    <h1>Mini Art Museum</h1>
+    <nav>
+      <a href="./artists.html">List of artists</a> |
+      <a href="./gallery.html">Art collection</a> |
+      <a href="./visit.html">Visit & Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="welcome">
+      <h2>Welcome to the artist museum !</h2>
+      <img src="./img/logo.svg" alt="museum logo">
+      <p>Welcome to a space where imagination comes to life. <br>
+        Our museum is dedicated to showcasing a diverse range <br>
+        of extraordinary artworks, bridging the gap between historical <br>
+        masterpieces and groundbreaking contemporary art. <br>
+        Through our carefully curated exhibitions, we invite you <br>
+        to explore unique human stories, discover inspiring artistic journeys, <br>
+        and experience the powerful emotions captured by world-class creators.</p>
+        </section>
+    <section id="Explore">
+      <h2>Explore more..</h2>     
+        <nav>
+          <p>Meet the brilliant minds behind the masterpieces:</p>
+          <a href="./artists.html">List of artists</a>
+          <p>Explore our stunning visual exhibits:</p>
+          <a href="./gallery.html">Art collection</a>
+          <p>Plan your journey and get in touch with us:</p>
+          <a href="./visit.html">Visit & Contact</a>
+        </nav>
+    </section>
+  </main>
+  <footer>
+    <h2>more ditails</h2>
+    <p>
+      Open Daily: 9:00 AM - 6:00 PM 
+      <br>
+      Location: 123 Museum Blvd, Art District
+    </p>
+  </footer>
+</body>
 
-    <footer class="footer">
-      <ul class="footer-list">
-        <li id="museum-location">Sokolov 8 Be'er Sheva</li>
-        <li id="footer-museum-hours">8:00-20:00</li>
-      </ul>
-    </footer>
-  </body>
 </html>
