@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="en">
-
+<!-- 
+● Use of <section> and semantic structure
+-->
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,52 +13,73 @@
 <body>
   <header>
     <nav>
-      <a href="./index.html">Return to the main page</a>
+      <a href="./index.html">Return to the home page</a>
     </nav>
   </header>
   <main>
-    <section id= "Artists">
+    <section id="Artists">
       <h1>Artists</h1>
-      <article id = "Vincent Willem Van Gogh">
+      <nav>
+        <a href="#VincentWillemVanGogh">Vincent Willem Van Gogh</a>
+        <br>
+        <a href="#ClaudeMonet">Claude Monet</a>
+        <br>
+        <a href="#RembrandtVanRijn">Rembrandt van Rijn</a>
+      </nav>
+      <article id="VincentWillemVanGogh">
         <h2>Vincent Willem Van Gogh</h2>
         <figure>
-          <img src="" alt="">
-          <figcaption> </figcaption>
+          <img src="./img/artist1.jpg" alt="Van Gogh img">
+          <figcaption>Vincent Willem Van Gogh</figcaption>
         </figure>
-        <p></p>
-        <a href=""></a>
+        <p>incent van Gogh (1853–1890) was a Dutch Post-Impressionist painter whose work
+          had a monumental influence on 20th-century art. Known for his raw emotional
+          intensity, bold colors, and dramatic, swirling brushwork, he created iconic masterpieces
+          like The Starry Night and Sunflowers. Although he struggled with severe mental illness
+          and sold only one painting during his lifetime,
+          he is now recognized globally as a tragic genius and a pioneer of Expressionism.</p>
+        <a href="./gallery.html#artwork1">Explore Vincent Willem artwork</a>
       </article>
-      <article id = "Claude Monet">
+      <article id="ClaudeMonet">
         <h2>Claude Monet</h2>
-        <figure></figure>
-        <p></p>
-        <a href=""></a>
+        <figure>
+          <img src="./img/artist2.jpg" alt="Claude Monet img">
+          <figcaption>Claude Monet</figcaption>
+        </figure>
+        <p>Claude Monet (1840–1926) was a French painter and a founding father of the Impressionist movement.
+          His groundbreaking 1872 painting, Impression, Sunrise,
+          famously gave the movement its name after critics used the term mockingly.
+          Rather than rendering fine details or traditional historical subjects,
+          Monet dedicated his life to capturing the transient effects of light, weather,
+          and color directly from nature (en plein air). In his later decades, he settled in Giverny,
+          where he meticulously designed a water garden
+          that served as the sole model for his iconic, near-abstract Water Lilies (Nymphéas) series</p>
+        <a href="./gallery.html#artwork4">Explore Claude artwork</a>
       </article>
-      <article id ="Rembrandt van Rijn" >
+      <article id="RembrandtVanRijn">
         <h2>Rembrandt van Rijn</h2>
-        <figure></figure>
-        <p></p>
-        <a href=""></a>
+        <figure>
+          <img src="./img/artist3.jpg" alt="Rembrandt van Rijn img">
+          <figcaption>Rembrandt van Rijn</figcaption>
+        </figure>
+        <p>Rembrandt van Rijn (1606–1669) is widely recognized as one of the greatest visual storytellers in history
+          and the defining master of the Dutch Golden Age. Working as a painter, printmaker, and draftsman in Amsterdam,
+          he became legendary for his unrivaled mastery of chiaroscuro—the dramatic use of stark light and deep shadow
+          to evoke profound emotional tension. Rembrandt's expansive body of work ranges from sweeping historical
+          and biblical scenes, like The Night Watch, to roughly 80 deeply honest, self-reflective
+          self-portraits that intimately documented his path from youthful success to late-life financial tragedy.</p>
+        <a href="./gallery.html#artwork7">Explore Rembrandt artwork</a>
       </article>
+        <br>
     </section>
   </main>
   <footer>
     <nav>
       <a href="./gallery.html">Art collection</a>
       <br>
-      <a href="./visit.html">Visit & Contact</a> 
+      <a href="./visit.html">Visit & Contact</a>
     </nav>
   </footer>
-  <!-- 
-<main> with one <article> per artist
-Each artist has:
-<h2> name
-<figure> with portrait + <figcaption>
-<p> bio
-<a href="gallery.html#artistname"> to preview some of their work
-Use of <section> and semantic structure
-Back navigation to Home (index.html)
- -->
 </body>
 
 </html>

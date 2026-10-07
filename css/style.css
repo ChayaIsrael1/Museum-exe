@@ -29,6 +29,7 @@ footer {
 }
 
 .thumbnail {
+  width : 100%;
   border: 3px solid #333333;
   border-radius: 8px;
 }
