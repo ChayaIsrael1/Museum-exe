@@ -1,47 +1,97 @@
-/* ===== Step 2: Type Selectors ===== */
-
 h1 {
+  color: purple;
+  font-size: x-large;
 }
 
 h2 {
+  color: blueviolet;
+  font-size: large;
+
 }
 
 nav a {
-
+ text-transform: uppercase;
+ font-weight: bold;
 }
-
 footer {
-
+background-color:palevioletred ;
+color: aliceblue;
 }
 
-/* ===== Step 3: Class Selectors ===== */
 
 .artist-card {
-
+border: 10px solid black;
+border-radius: 10px;
+background-color: antiquewhite;
 }
 
 .thumbnail {
-
+border: 10px solid gray;
+border-radius: 10px;
 }
 
-/* ===== Step 4: Id Selectors ===== */
 
 #VincentWillemVanGogh h2 {
+  color: aquamarine;
 }
 
 #ClaudeMonet h2 {
+  color:antiquewhite;
 }
 
 #RembrandtVanRijn h2 {
+  color: brown;
 }
 
 #welcome {
+  font-size:larger;
 }
-
-/* ===== Step 5: Parent + Child Selectors ===== */
 
 header nav a {
 }
 
 #VisitUs h2 {
 }
+
+/* (1,0,2) */
+#VisitUs h2 li{
+  font-size: 18px;
+  color: aqua;
+}
+
+footer p {
+  color: white;
+}
+/* (0,0,2) */
+footer a {
+  color: blue;
+}
+
+/* 
+Write 2 contradicting rules for the same <h2>: 
+one type selector and one class selector. 
+*/
+
+h2 {
+ font-style: normal;
+  color: blueviolet;
+}
+.ditails {
+  color:black;
+ font-style: italic;
+}
+
+/* 
+ Which color wins, and why?
+  color:black; wins
+  bacause class get 10 points vs type get only 1 point
+  class is more specipic
+
+*/
+
+/*
+● Calculate the specificity score of 3 of your own selectors
+    #VisitUs h2 li  (1,0,2)
+    footer a        (0,0,2)  
+header nav a (0,0,3)
+    */
